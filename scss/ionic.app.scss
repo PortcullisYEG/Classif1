@@ -1,0 +1,156 @@
+/*
+To customize the look and feel of Ionic, you can override the variables
+in ionic's _variables.scss file.
+
+For example, you might change some of the default colors:
+
+$light:                           #fff !default;
+$stable:                          #f8f8f8 !default;
+$positive:                        #387ef5 !default;
+$calm:                            #11c1f3 !default;
+$balanced:                        #33cd5f !default;
+$energized:                       #ffc900 !default;
+$assertive:                       #ef473a !default;
+$royal:                           #886aea !default;
+$dark:                            #444 !default;
+*/
+
+
+
+$light:                           #fff !default;
+$stable:                          #828282 !default;
+$positive:                        #249bcd !default;
+$calm:                            #33d3d5 !default;
+$balanced:                        #43c3a5 !default;
+$energized:                       #e0cf75 !default;
+$assertive:                       #f25f5c !default;
+$royal:                           #9e87ce !default;
+$gray:                            #303439 !default;
+$dark:                            #222528 !default;
+$light-gray:                      #fafafa !default;
+
+.text-light {
+    color: $light !important;
+}
+
+.bg-light {
+    background-color: $light !important;
+}
+.bg-stable {
+    background-color: $stable !important;
+}
+.bg-positive {
+    background-color: $positive !important;
+}
+.bg-calm {
+    background-color: $calm !important;
+}
+.bg-balanced {
+    background-color: $balanced !important;
+}
+.bg-energized {
+    background-color: $energized !important;
+}
+.bg-assertive {
+    background-color: $assertive !important;
+}
+.bg-royal {
+    background-color: $royal !important;
+}
+.bg-gray {
+    background-color: $gray !important;
+}
+.bg-dark {
+    background-color: $dark !important;
+}
+.bg-light-gray {
+    background-color: $light-gray !important;
+}
+
+
+// The path for our ionicons font files, relative to the built CSS in www/css
+$ionicons-font-path: "../lib/ionic/fonts" !default;
+
+// Include all of Ionic
+@import "www/lib/ionic/scss/ionic";
+
+
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+
+*, .button, input, label {
+    font-family: 'Varela Round', sans-serif;
+}
+
+* {
+    border: 0px !important;
+}
+
+a, a:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+.logo {
+    font-family: 'Pacifico', cursive;
+}
+
+.back-text {
+    display: none !important;
+}
+
+.item {
+    background-color: transparent;
+}
+
+.menu-left .item p, .menu-left .item .material-icons, .menu-right .item p, .menu-right .item .material-icons {
+    color: $light;
+}
+
+.add-screen .item-input {
+    border-bottom: 1px solid $light-gray !important;
+}
+
+
+
+
+/* Sidebar */
+
+.menu-closed {
+    -moz-transform: translateX(-350px) !important;
+    -webkit-transform: translateX(-350px) !important;
+    -o-transform: translateX(-350px) !important;
+    -ms-transform: translateX(-350px) !important;
+    transform: translateX(-350px) !important;
+  
+}
+
+.menu-open-3d {
+    transform: rotateY(-3deg) translateZ(-90px) translateX(300px) translateY(0) !important;
+    -webkit-transform: rotateY(-3deg) translateZ(-90px) translateX(300px) translateY(0) !important;
+}
+
+.view {
+    -webkit-perspective: 300px !important; /* Chrome, Safari, Opera  */
+    -moz-perspective: 300px !important; /* Chrome, Safari, Opera  */
+    perspective: 300px !important;
+}
+
+.menu-overlay {
+    position: fixed; 
+    width: 100%; 
+    height: 100%; 
+    left:270px;
+    z-index: 4;
+}
+
+.menu-content {
+    z-index: 5;
+}
+
+
+
+
+
+.item-box {
+  background-size: 100% !important;
+}

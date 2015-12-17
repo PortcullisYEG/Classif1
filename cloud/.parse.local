@@ -1,0 +1,10 @@
+{
+  "applications": {
+    "ShopTune": {
+      "applicationId": "CWF5Xxcmuwoh6Dwr6YPOs9hNjXT3Kl8816TqNNNg"
+    },
+    "_default": {
+      "link": "ShopTune"
+    }
+  }
+}
